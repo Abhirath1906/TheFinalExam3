@@ -91,7 +91,7 @@ export default function Home({ products }) {
       item.id === editData.id ? { ...item, ...values } : item
     )
     setData(updatedData)
-    message.success("Product updated locally (API tidak mendukung PUT)")
+    message.success("Product updated(but just local)")
     setOpenEdit(false)
     editForm.resetFields()
   }
