@@ -188,11 +188,11 @@ export default function Dashboard({ products }) {
 
 
       </Content>
-      <Footer style={{backgroundColor:"black",color:"white"}}>
+      {/* <Footer style={{backgroundColor:"black",color:"white"}}>
           <div style={{display:"flex",justifyContent:"center"}}>
             <p>Made By Abhirath</p>
           </div>
-        </Footer>
+        </Footer> */}
     </Layout>
   )
 }
